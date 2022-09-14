@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminLogin": {
+      "value": "logitech"
+    },
+    "keyVaultName": {
+      "value": "kvsql30"
+    },
+    "keyVaultRGName": {
+      "value": "rg-weu-prod"
+    },
+    "location": {
+      "value": "westeurope"
+    },
+    "projectName": {
+      "value": "cebs"
+    }
+    }
+}
